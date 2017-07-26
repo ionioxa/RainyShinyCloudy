@@ -4,7 +4,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'RainyShinyCloudy' do
-pod 'Alamofire',
-  	:git => 'https://github.com/Alamofire/Alamofire.git',
-  	:branch => 'swift4'
+    
+ pod 'Alamofire', '~> 4.4'
+ 
 end
